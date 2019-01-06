@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "HelloCordova",
+  "short_name": "HelloCordova",
+  "version": "io.cordova.hellocordova",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Canh Kieu",
+  "icons": [],
+  "start_url": "http://192.168.100.5:8080"
+}

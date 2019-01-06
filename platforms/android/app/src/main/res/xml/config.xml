@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>HelloCordova</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="minhcanhdn0704@gmail.com" href="http://azwebplus.com">
+        Canh Kieu
+    </author>
+    <content src="http://192.168.100.5:8080" />
+    <access allows-local-networking="true" origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-intent href="market:*" />
+    <splash density="land-hdpi" src="res/screen/android/land-hdpi.png" />
+    <splash density="land-xhdpi" src="res/screen/android/land-xhdpi.png" />
+    <splash density="land-xxhdpi" src="res/screen/android/land-xxhdpi.png" />
+    <splash density="land-xxxhdpi" src="res/screen/android/land-xxxhdpi.png" />
+    <splash density="port-hdpi" src="res/screen/android/port-hdpi.png" />
+    <splash density="port-xhdpi" src="res/screen/android/port-xhdpi.png" />
+    <splash density="port-xxhdpi" src="res/screen/android/port-xxhdpi.png" />
+    <splash density="port-xxxhdpi" src="res/screen/android/port-xxxhdpi.png" />
+    <icon density="hdpi" src="res/icon/android/icon-hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/icon-xhdpi.png" />
+    <icon density="xxhdpi" src="res/icon/android/icon-xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icon/android/icon-xxxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>
